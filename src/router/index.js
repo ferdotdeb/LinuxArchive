@@ -19,7 +19,16 @@ const routes = [
       title: 'Git Commands',
       requiresAuth: false,
     },
-  }
+  },
+  // {
+  //   path: '/linuxWizards',
+  //   name: 'linuxWizards',
+  //   component: () => import('@/views/LinuxWizardsView.vue'),
+  //   meta: {
+  //     title: 'Linux Wizards',
+  //     requiresAuth: false,
+  //   },
+  // }
 ]
 
 const router = createRouter({
