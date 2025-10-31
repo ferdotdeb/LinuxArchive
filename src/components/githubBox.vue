@@ -233,12 +233,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .outer {
   /* Variables CSS para el componente */
   --w-min: 280px;
@@ -258,9 +252,6 @@ onMounted(() => {
   border-radius: calc(var(--radius) + var(--stroke));
   background: var(--stroke-color);
   color: var(--fc);
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-  font-style: normal;
 }
 
 /* Compact inner box */
