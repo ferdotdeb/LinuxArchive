@@ -234,18 +234,16 @@ onMounted(() => {
 
 <style scoped>
 .outer {
-  /* Variables CSS para el componente */
+  /* CSS variables only for this component*/
+  /* TODO in the future maybe i didn't use fc or bg, update here */
   --w-min: 280px;
-  --w-max: 535px; /* max width on desktop */
+  --w-max: 510px; /* max width on desktop */
   --muted: #cfcfcf;
   --stroke: 2px;
   --stroke-color: rgba(255, 255, 255, 0.55);
   --radius: 16px;
   --btn-border: #fff;
   --btn-hover: rgba(255, 255, 255, 0.08);
-  --bg: #0b0b0b;
-  --fc: #fff;
-
   width: clamp(var(--w-min), 80vw, var(--w-max));
   margin: 10px auto;
   padding: var(--stroke);
