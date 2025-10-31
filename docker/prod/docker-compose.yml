@@ -1,0 +1,10 @@
+name: linux-archive-prod
+
+services:
+  vuejs:
+    build:
+      context: ../../
+      dockerfile: docker/prod/Dockerfile
+    volumes:
+      - ../../dist:/app/dist
+    command: npm run build
